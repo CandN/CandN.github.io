@@ -7,7 +7,15 @@ layout: default
   {{ content }}
 </div>
 
-<script src="https://carnivalapp.io/sites/501/init.js"></script>
+<div id="disqus_thread"></div>
 <script>
-  document.addEventListener("DOMContentLoaded", Carnival.init);
+  (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+
+    s.src = '//totallywinning.disqus.com/embed.js';
+
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
 </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
