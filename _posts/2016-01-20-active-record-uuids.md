@@ -1,6 +1,7 @@
 ---
 layout: post
 title: UUIDs in Rails generators
+category: Technical Notes
 ---
 You want to use UUIDs instead of incremental IDs as your primary keys – because it's a [good idea](http://andrzejonsoftware.blogspot.com/2013/12/decentralise-id-generation.html) – but Rails annoys you by still generating migration files with integers?
 

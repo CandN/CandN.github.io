@@ -8,16 +8,18 @@ title: Home
 </div>
 
 <div class="toc">
-  <h2>Technical Notes</h2>
-  <ul class="post">
-  {% for item in site.posts do %}
 
-    <li class="post-title">
-      <a href="{{ site.baseurl }}{{ item.url }}">
-        {{ item.title }}
-      </a>
-    </li>
+  {% for category in site.categories %}
+    <h2>{{ category[0] }}</h2>
+    <ul class="post">
+      {% for item in category[1] %}
+        <li class="post-title">
+          <a href="{{ site.baseurl }}{{ item.url }}">
+            {{ item.title }}
+          </a>
+         </li>
+       {% endfor %}
+    </ul>
   {% endfor %}
-  </ul>
 
 </div>

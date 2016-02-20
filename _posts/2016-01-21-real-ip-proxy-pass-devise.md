@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Real IP with Devise and nginx proxy_pass
+category: Technical Notes
 ---
 Sometimes you might use a `proxy_pass` to run both front-end and the back-end of your service on the same machine. Sometimes you pass that traffic somewhere else, no matter.
 
