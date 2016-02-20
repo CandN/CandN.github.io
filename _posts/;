@@ -1,0 +1,11 @@
+---
+layout: post
+title: UUIDs in Rails generators
+---
+You want to use UUID instead of incrementals as your primary keys – because it's a [good idea](http://andrzejonsoftware.blogspot.com/2013/12/decentralise-id-generation.html) – but Rails annoys you by still enerating migration files with integers?
+
+Then add this to configuration:
+
+~~~ ruby
+Rails.application.config.active_record.primary_key = :uuid
+~~~
