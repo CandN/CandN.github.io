@@ -1,14 +1,18 @@
 /* Ed: the minimal edition theme.
- * ___________________   
- * \_   _____/\______ \  
- *  |    __)_  |    |  \ 
+ * ___________________
+ * \_   _____/\______ \
+ *  |    __)_  |    |  \
  *  |        \ |    `   \
  * /_______  //_______  /
- *         \/         \/ 
+ *         \/         \/
  * Designed, built, and released under an MIT license by @elotroalex.
  * Based on the Poole and Lanyon theme by @mdo. Learn more at
  * https://github.com/elotroalex/ed.
  */
+
+.one-em-bottom {
+  margin-bottom: 1em;
+}
 
 .reversefootnotes {
 	-webkit-text-fill-color: red;
@@ -26,7 +30,7 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-weight: 400; 
+  font-weight: 400;
   font-size: 1.5rem;
   color: #666;
   letter-spacing: -.025rem;
@@ -68,7 +72,7 @@ ul {
 
 blockquote {
 	padding: 0rem 1.5rem 0rem 2rem;
-	margin: 0 0 20px 0; 
+	margin: 0 0 20px 0;
 	color: inherit;
 	border-left: none;
 	font-style: italic;

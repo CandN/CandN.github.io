@@ -11,7 +11,7 @@ title: Home
 
   {% for category in site.categories %}
     <h2>{{ category[0] }}</h2>
-    <ul class="post">
+    <ul class="post one-em-bottom">
       {% for item in category[1] %}
         <li class="post-title">
           <a href="{{ site.baseurl }}{{ item.url }}">
