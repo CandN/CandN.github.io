@@ -29,7 +29,7 @@ Now for the actual schedule.
 
 - `5pm/5:30pm` Opal.rb – quite interesting. I'm really unsure how much it's ready for production use and hope to hear more.
 
-- `6pm/6:30pm` next Andrzej talk entitled _from legacy to DDD_ – not sure what's that about but he often has some good insights into software development strategies.
+- `6pm/6:30pm` next Andrzej's talk entitled _from legacy to DDD_ – not sure what's that about but he often has some good insights into software development strategies.
 
 - `7pm/8pm` lightning talks – that's totally random but I expect nice input from a lot of folks.
 
