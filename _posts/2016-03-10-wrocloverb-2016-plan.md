@@ -3,7 +3,7 @@ layout: post
 title: My plan for wroclove.rb, 2016 edition
 category: Technical Notes
 ---
-[wroclove.rb](http://www.wrocloverb.com/) is in my opinion the best Ruby conference held in Poland. I'm a little bit ashamed to admit this is the first time I'm actually going to take part in it.
+[wroclove.rb](http://www.wrocloverb.com/) is in my opinion the best Ruby conference held in Poland from what I heard. I'm a little bit ashamed to admit this is the first time I'm actually going to take part in it.
 
 Anyhow, here you will find a breakdown of the schedule, done mostly for benefit of me, to better manage my time and expectations during the event.
 
