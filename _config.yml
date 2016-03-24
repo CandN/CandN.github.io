@@ -18,8 +18,8 @@ kramdown:
   enable_coderay: false
 
 # Setup
-title:               'totally_winning'
+title:               'Caching and Naming'
 tagline:             ''
-description:         'Jakub Naliwajek: a developer, a runner and a nerd – and this is my archive.'
-url:                 https://totallywinning.com
+description:         ''
+url:                 https://cachingandnaming.com
 baseurl:             ''
