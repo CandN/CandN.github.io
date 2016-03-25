@@ -1,1 +1,12 @@
 /*All custom styles go here*/
+.author {
+  margin-top: 10%;
+}
+
+.author .github-logo {
+  height: 30px;
+}
+
+.author .github-avatar {
+  height: 150px;
+}
