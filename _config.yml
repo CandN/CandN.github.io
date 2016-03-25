@@ -5,10 +5,17 @@
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink: ':title'
 
-# Markdown specs
+# Markdown
 markdown: kramdown
 
+rdiscount:
+  extensions: []
+
+redcarpet:
+  extensions: []
+
 kramdown:
+  input: GFM
   auto_ids:       true
   footnote_nr:    1
   entity_output:  as_char
@@ -16,6 +23,13 @@ kramdown:
   toc_levels:     1..6
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  coderay:
+    coderay_wrap:              div
+    coderay_line_numbers:      inline
+    coderay_line_number_start: 1
+    coderay_tab_width:         4
+    coderay_bold_every:        10
+    coderay_css:               style
 
 # Setup
 title:               'Caching and Naming'
@@ -23,3 +37,13 @@ tagline:             ''
 description:         ''
 url:                 http://cachingandnaming.com
 baseurl:             ''
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      type: post
+      layout: default
+      category: Ruby
