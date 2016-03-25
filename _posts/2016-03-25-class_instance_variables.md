@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Class instance variables
-category: Ruby
+author: matDobek
 ---
 
 It's hot summer Sunday, cloudless sky, you lie on the beach. Sun bathes your body, and you lie there smiling to yourself, that you don't have anything to do. That's a good day. You lazily pull out your hand for the phone, and start reading twitter. Rspec 3.3 is released, Matz ate spaghetti for dinner, Matt is wondering about class instance variables, Grieg bought the new bike.
