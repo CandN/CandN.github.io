@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Class instance variables
 author: matDobek
 ---

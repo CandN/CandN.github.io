@@ -45,5 +45,5 @@ defaults:
       path: ""
     values:
       type: post
-      layout: default
+      layout: post
       category: Ruby
