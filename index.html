@@ -2,13 +2,13 @@
 layout: default
 title: Home
 ---
-<div class="toc">
+<div class="row">
 
   {% for category in site.categories %}
-    <h2>{{ category[0] }}</h2>
-    <ul class="post one-em-bottom">
+    <h3>{{ category[0] }}</h3>
+    <ul class="list-unstyled">
       {% for item in category[1] %}
-        <li class="post-title">
+        <li>
           <a href="{{ site.baseurl }}{{ item.url }}">
             {{ item.title }}
           </a>
