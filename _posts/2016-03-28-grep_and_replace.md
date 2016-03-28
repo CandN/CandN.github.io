@@ -5,7 +5,7 @@ category: Unix
 author: matDobek
 ---
 
-## tl;d
+## tl;dr
 
 Simple way of replacing text across multiple files:
 
