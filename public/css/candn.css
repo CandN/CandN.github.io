@@ -4,9 +4,14 @@
 }
 
 .author .github-logo {
-  height: 30px;
+  height: 20px;
 }
+
 
 .author .github-avatar {
   height: 150px;
+}
+
+#disqus_thread {
+  margin-top: 10%;
 }
