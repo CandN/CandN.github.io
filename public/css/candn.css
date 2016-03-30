@@ -1,17 +1,9 @@
 /*All custom styles go here*/
-.author {
-  margin-top: 10%;
-}
-
-.author .github-logo {
-  height: 20px;
-}
-
-
-.author .github-avatar {
-  height: 150px;
+.title_with_author h1 small {
+  font-size: 0.4em;
 }
 
 #disqus_thread {
   margin-top: 10%;
 }
+
