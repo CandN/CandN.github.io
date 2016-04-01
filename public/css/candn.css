@@ -1,4 +1,15 @@
 /*All custom styles go here*/
+.header {
+  display: table;
+  margin: 10% 0 0 0 auto;
+}
+
+.tagline {
+  display: table;
+  padding-top: 6px;
+  margin: 0 auto;
+}
+
 .title_with_author h1 small {
   font-size: 0.4em;
 }
