@@ -3,7 +3,10 @@ layout: default
 ---
 
 <div class="post">
-  {% include title_with_author.html %}
+  {% include title.html %}
+  {% include subtitle.html %}
+
   {{ content }}
+
   {% include disqus.html %}
 </div>

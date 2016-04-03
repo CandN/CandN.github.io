@@ -1,9 +1,14 @@
 /*All custom styles go here*/
-.title_with_author h1 small {
+
+.title h1 small {
   font-size: 0.4em;
+}
+
+.subtitle {
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 #disqus_thread {
   margin-top: 10%;
 }
-
