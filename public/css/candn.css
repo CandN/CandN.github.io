@@ -1,10 +1,21 @@
 /*All custom styles go here*/
 
-.title h1 small {
+.header {
+  display: table;
+  margin: 10% 0 0 0 auto;
+}
+
+.tagline {
+  display: table;
+  padding-top: 6px;
+  margin: 0 auto;
+}
+
+.post-title h1 small {
   font-size: 0.4em;
 }
 
-.subtitle {
+.post-subtitle {
   margin-top: 2%;
   margin-bottom: 2%;
 }
