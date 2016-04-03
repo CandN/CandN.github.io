@@ -14,6 +14,27 @@
   font-size: 0.4em;
 }
 
+.post-social-media {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+/*
+ * Hack: Facebook is doing some crazy stuff with his button
+ * more here http://stackoverflow.com/questions/4770372/misalignment-of-facebook-twitter-buttons
+ */
+.facebook-share .fb-share-button {
+  vertical-align: top !important;
+}
+
+.facebook-share{
+  display: inline;
+}
+
+.twitter-share {
+  display: inline;
+}
+
 #disqus_thread {
   margin-top: 10%;
 }
