@@ -12,6 +12,10 @@ title: Home
           <a href="{{ site.baseurl }}{{ item.url }}">
             {{ item.title }}
           </a>
+
+          <small>
+            {{ item.date | date: "%d %B %Y" }}
+          </small>
          </li>
        {% endfor %}
     </ul>

@@ -1,4 +1,5 @@
 /*All custom styles go here*/
+
 .header {
   display: table;
   margin: 10% 0 0 0 auto;
@@ -10,8 +11,13 @@
   margin: 0 auto;
 }
 
-.title_with_author h1 small {
+.post-title h1 small {
   font-size: 0.4em;
+}
+
+.post-subtitle {
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .post-social-media {
@@ -30,4 +36,3 @@
 #disqus_thread {
   margin-top: 10%;
 }
-
