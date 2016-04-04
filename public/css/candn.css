@@ -14,6 +14,19 @@
   font-size: 0.4em;
 }
 
+.post-social-media {
+  margin-top: 10%;
+}
+
+.twitter-share {
+  display: inline;
+}
+
+.twitter-share a img {
+  height: 2em;
+  width: auto;
+}
+
 #disqus_thread {
   margin-top: 10%;
 }
