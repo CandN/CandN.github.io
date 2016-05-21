@@ -99,7 +99,7 @@ To specify the email, just add to your *crontab* file:
 {% highlight bash %}
 # /usr/lib/crone/tabs/jon_snow
 
-MAILTO=jon_snow@nightwatch.org # remember that there cannot be spaces around the "="
+MAILTO=jon_snow@nightwatch.org # no spaces around "=" allowed
 
 # Run every 1st day of the month, at 00:00
 0 0 1 * *     echo "Brace yourself, spoilers are coming!"
