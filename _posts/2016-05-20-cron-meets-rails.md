@@ -28,22 +28,24 @@ crontab -l # display the crontab file for current user
 
 So when user named `jon_snow` will for the first time run the `crontab -e`, the `/usr/lib/cron/tabs/jon_snow` file will be created, and opened in specified editor.
 
-Note, that you can set `EDITOR` environment variable, to pick editor of your choice. It will become default one, for openingbash programs, like *crontab*. In my case it looks like:
+***
+Note, that you can set `EDITOR` environment variable, to pick editor of your choice. It will become default one, for opening bash programs, like *crontab*. In my case it looks like:
 
 {% highlight bash %}
 # ~/.bashrc
 export EDITOR=vim
 {% endhighlight %}
 
-**Note for vim users**
-
-If you are experiencing `crontab: temp file must be edited in place` error, during  `crontab -e` - it is caused by vim policy on backup files, which collides with `crontab` one. To fix, update your vim config:
+If you are experiencing `crontab: temp file must be edited in place` error, during  `crontab -e` - it is caused by vim policy on backup files, which collides with *crontab* one. To fix, update your vim config:
 
 {% highlight bash %}
 # ~/.vimrc
 set backupskip=/tmp/*,/private/tmp/* " skip backup, it's fix for crontab
 {% endhighlight %}
-This file follows the specyfic format:
+
+***
+
+*Crontab* files follow specyfic format:
 
 {% highlight bash %}
 *     *     *     *     *     command
@@ -60,7 +62,7 @@ This file follows the specyfic format:
 +--------------------------- minute (0 - 59)
 {% endhighlight %}
 
-Nitice that days of the week has 8 possible values. That is because sunday is assigned to 0 and 7.
+Notice that days of the week has 8 possible values. That is because sunday is assigned to 0 and 7.
 
 Sample `crontab` file, for `jon_snow` user, can look like:
 
@@ -119,7 +121,7 @@ The format of these files is one user-name per line, with no leading or trailing
 
 And now it’s the time for Jon, to build his own Ruby on Rails app. He wants to remind every monday, his fellow lords, that winter is coming.
 
-Lets do this via *rake task:*
+He prepared *rake task* `send_email:winter_is_coming`. Let's put it inside our *crontab* file:
 
 {% highlight bash %}
 # cron itself won't have loaded any PATHs, or ENVs so we need to do this VERY explict
@@ -133,4 +135,4 @@ Lets do this via *rake task:*
 * * * * 1 cd /path/to/your/rails/app && RAILS_ENV=production /usr/local/rvm/gems/ruby-2.0.0-p647/wrappers/bundle exec rake send_email:winter_is_coming
 {% endhighlight %}
 
-
+That's it!
