@@ -33,7 +33,7 @@ kramdown:
 
 # Setup
 title:               'Caching and Naming'
-tagline:             'We are bad at what we do!'
+tagline:             ''
 description:         ''
 url:                 http://cachingandnaming.com
 baseurl:             ''
